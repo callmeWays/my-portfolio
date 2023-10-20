@@ -56,7 +56,14 @@ const Project = () => {
                     <h3 className='text-xl my-4'>{projectInfo.name}</h3>
                     <div className='flex gap-3'>
                       {/* <a href={projectInfo.github_link} target='_blank' className='text-cyan-800 bg-gray-800 px-2 py-1 inline-block rounded-lg'>Github</a> */}
-                      <a href={projectInfo.demo_link} target='_blank' className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block rounded-lg'>Demo</a>
+                      <a 
+                        href={projectInfo.demo_link} 
+                        target='_blank' 
+                        rel="noopener" 
+                        className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block rounded-lg'
+                      >
+                        Demo
+                      </a>
                     </div>
                   </div>              
                 </SwiperSlide>

@@ -42,7 +42,7 @@ const Hero = () => {
                     key={icon}
                     className='text-gray-600 hover:text-white cursor-pointer'
                   > 
-                    <a href={icon.link} target='_blank'>{icon.icon}</a>
+                    <a href={icon.link} target='_blank' rel="noopener">{icon.icon}</a>
                   </div>
                 ))
               }
