@@ -5,7 +5,7 @@ import myportfolio from '../assets/file/Diether Medina CV.pdf'
 const About = () => {
   const info = [
     {text:'Years experience', count:'01'},
-    {text:'Completed Projects', count:'03'},
+    {text:'Completed Projects', count:'04'},
     {text:'Companies Work', count:'04'},    
   ]
   return (
