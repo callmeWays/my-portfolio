@@ -13,8 +13,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const nav = document.querySelector("nav");
+    window.addEventListener("scroll", () => {      
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });
   })

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import project1 from '../assets/images/project1.png';
 import project_person from '../assets/images/a2.webp';
 import project_xtelarz from '../assets/images/project_xtelarz.png';
 import project_bulsu_archive from '../assets/images/project_bulsu_archive.png';

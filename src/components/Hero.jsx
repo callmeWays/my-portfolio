@@ -1,6 +1,5 @@
 import React from 'react'
 import hero from '../assets/images/hero.png';
-import { SiIndeed } from 'react-icons/si'
 import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const Hero = () => {
