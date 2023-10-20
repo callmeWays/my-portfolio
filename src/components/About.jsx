@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImg from '../assets/images/about.png'
+import myportfolio from '../assets/file/Diether Medina CV.pdf'
 
 const About = () => {
   const info = [
@@ -33,7 +34,11 @@ const About = () => {
                 }
               </div>
               <br/><br/>
-              <a href="./src/assets/file/myCV.pdf" >
+              <a 
+                href={myportfolio}  
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='btn-primary '> Download </button>
               </a>              
             </div>

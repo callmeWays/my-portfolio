@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import project_person from '../assets/images/a2.webp';
 import project_xtelarz from '../assets/images/project_xtelarz.png';
 import project_bulsu_archive from '../assets/images/project_bulsu_archive.png';
+import project_weather_app from '../assets/images/project_weather_app.png';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -22,7 +23,13 @@ const Project = () => {
       name: 'Thesis & Capstone Archive',
       github_link: '', 
       demo_link: 'https://bulsuv1.000webhostapp.com/'
-    },    
+    }, 
+    {
+      img: project_weather_app, 
+      name: 'Weather-App',
+      github_link: '', 
+      demo_link: 'https://ways-weather.netlify.app/'
+    }, 
   ]
   return (
     <section id='projects' className=' pb-10 pt-28 text-white'>
@@ -52,7 +59,11 @@ const Project = () => {
               projects?.map((projectInfo, i) => (
                 <SwiperSlide key={i}>
                   <div className='h-fit w-full p-4 bg-slate-700 rounded-xl'>
-                    <img src={projectInfo.img} alt="" className='rounded-lg' />
+                    <img 
+                      src={projectInfo.img} 
+                      alt="" 
+                      className='rounded-lg'
+                    />
                     <h3 className='text-xl my-4'>{projectInfo.name}</h3>
                     <div className='flex gap-3'>
                       {/* <a href={projectInfo.github_link} target='_blank' className='text-cyan-800 bg-gray-800 px-2 py-1 inline-block rounded-lg'>Github</a> */}
