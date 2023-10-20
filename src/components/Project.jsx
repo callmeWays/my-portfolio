@@ -59,7 +59,7 @@ const Project = () => {
                       <a 
                         href={projectInfo.demo_link} 
                         target='_blank' 
-                        rel="noopener" 
+                        rel="noreferrer" 
                         className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block rounded-lg'
                       >
                         Demo
