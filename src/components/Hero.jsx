@@ -1,6 +1,7 @@
 import React from 'react'
 import hero from '../assets/images/hero.png';
 import { BsFacebook, BsLinkedin, BsGithub } from 'react-icons/bs'
+import { FaStreetView } from 'react-icons/fa'
 
 const Hero = () => {
   const social_media = [
@@ -8,6 +9,8 @@ const Hero = () => {
     { icon: <BsFacebook />, link: 'https://www.facebook.com/Medina.diether.7'},
     { icon: <BsLinkedin />, link: 'https://www.linkedin.com/in/diether-medina-b1a88825a/'},
     { icon: <BsGithub />, link: 'https://github.com/callmeWays'},   
+    { icon: <FaStreetView />, link: 'https://www.jobstreet.com.ph/profile/diether-medina-nFLcyPYFGs'},
+
   ]
   return (
     <section 
