@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutImg from '../assets/images/about.png'
-import myportfolio from '../assets/file/Diether Medina CV.pdf'
+import myportfolio from '../assets/file/Diether Medina Resume.pdf'
 
 const About = () => {
   const info = [

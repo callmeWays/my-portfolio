@@ -33,7 +33,7 @@ const Hero = () => {
             My Name is <span>Diether</span>
           </h1>
           <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600'>
-            Front-End Developer
+            I'm a Front-End Developer
           </h4>
             <button className='btn-primary mt-8 hover:text-cyan-950'> 
               <a href="#contact">Contact Me</a>
