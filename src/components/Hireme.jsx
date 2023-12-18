@@ -16,7 +16,7 @@ const Hireme = () => {
           <p className='lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6'>
               I'm a recent IT graduate with a strong interest in web development and a proven ability to create simple yet elegant websites. I have some projects below that I created when I was in college and for my past company. I am confident that I can make a valueable contribution to your organization's web development projects.
           </p>
-          <button className='btn-primary mt-10'>Say Hello</button>          
+          {/* <button className='btn-primary mt-10'>Say Hello</button>           */}
         </div>
         <img src={hireMe} alt="hireMe" className=' lg:h-[32rem] w-[22rem] h-80 lg:absolute bottom-0 -right-3 object-cover'/>
       </div>

@@ -39,7 +39,7 @@ const About = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <button className='btn-primary '> Download </button>
+                <button className='btn-primary '> Download Resume </button>
               </a>              
             </div>
           </div>
